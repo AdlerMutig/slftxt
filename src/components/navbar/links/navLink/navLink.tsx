@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { LinkItem } from "../Links";
 
 interface NavLinkProps {
-    item: LinkItem; // Define item prop type as LinkItem
+    item: LinkItem;
 }
 
 const NavLink = ({ item }: NavLinkProps) => {
